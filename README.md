@@ -32,14 +32,14 @@ git clone https://github.com/GuanLab/PDTap.git
 The tapping data are stored in the .json format (See the toy examples in the `toy_data/`). Before given to the model, we transfer them to numpy arrays as the following and save to .npy files. Please check the `extract_coord.py` as an example on extracting the coordinates data from the JSON files.
 ``` 
 # Example of the coordinates processed data
-Timstamp        Buttom              Coord_X     Coord_Y
+# Timstamp        Buttom              Coord_X     Coord_Y
 0               TappedButtonLeft    93.5        420
 0.0805871250013	TappedButtonNone	255	        418.5
 0.229725541667	TappedButtonRight	255	        418.5
 ...
 
 # Example of the accelerometer processed data
-Timstamp          Accel_X           Accel_Y            Accel_Z
+# Timstamp          Accel_X           Accel_Y            Accel_Z
 9.49009614885e+04 1.61743164062e-03 -5.13153076171e-02 -9.94689941405e-01
 9.49009714254e+04 1.05529785156e-01 -6.88781738281e-02 -1.04756164551e+00
 9.49009813615e+04 1.39877319336e-01 -6.40563964843e-02 -1.08334350586e+00
