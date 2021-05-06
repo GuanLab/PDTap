@@ -16,6 +16,8 @@ The work is an application of the convolutional neural network (CNN) on the Park
 * [OpenCV-Python](https://pypi.org/project/opencv-python/) (3.4.0)
 * [Numpy](https://numpy.org/) (1.14.3)
 * [Scikit-learn](https://scikit-learn.org/) (0.20.3)
+
+  
 Install the dependencies through the provided environment file  
 ```
 pip install -r requirements.txt
