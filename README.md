@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ### Installation
 ```
-git clone ...
+git clone https://github.com/GuanLab/PDTap.git
 ```
 
 ### Input Data
