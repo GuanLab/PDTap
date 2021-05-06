@@ -29,7 +29,7 @@ git clone https://github.com/GuanLab/PDTap.git
 ```
 
 ### Input Data
-The tapping data are stored in the .json format. Before given to the model, we transfer them to numpy arrays as the following and save to .npy files. Please check the `extract_coord.py` as an example on extracting the coordinates data from the JSON files.
+The tapping data are stored in the .json format (See the toy examples in the `toy_data/`). Before given to the model, we transfer them to numpy arrays as the following and save to .npy files. Please check the `extract_coord.py` as an example on extracting the coordinates data from the JSON files.
 ``` 
 # Example of the coordinates processed data
 Timstamp        Buttom              Coord_X     Coord_Y
